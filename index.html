@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--meta view port-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "/Users/krishanukashyap/Documents/COVIDTracker.html/style.css">
+        <!--Jquery APi-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--JQuery-->
+        <script src="main.js" charset = "utf-8"></script>
+        <title>COVID Tracker.</title>
+        <!--Google Fonts !!-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
+        <!--Chart.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+        <title>
+            COVID Tracker India 2020 
+        </title>
+    </head>
+    <body>
+        <div class = "container-fluid heading"> 
+            <h1>COVID 19 Tracker</h1> 
+        </div>
+        <div class = "initial_info container">
+            <div class = "row text-center font-italic">
+                <div class = "col text-primary">
+                    <h2>Confirmed</h2>
+                    <p id = "confirmed"></p>
+                </div>
+                <div class = "col text-success font-italic">
+                    <h2>Active</h2>
+                    <p id = "active"></p>
+                </div>
+                <div class = "col text-warning font-italic">
+                    <h2>Recovered</h2>
+                    <p id = "recovered"></p>
+                </div>
+                <div class  = "col text-danger font-italic">
+                    <h2>Death</h2>
+                    <p id = "death"></p>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-md-center information">
+              <div class="col col-lg-2 information">
+              </div>
+              <div class="col-md-auto information">
+                <h1 class = "info">Stay Safe. Stay Healthy</h1>
+                <h2 class = "info">Together Let's Defeat COVID-19</h2>
+              </div>
+              <div class="col col-lg-2 information">
+              </div>
+            </div>
+        </div>
+        <div class = "container-fluid">
+            <h3 class = "Catchy">*Click on the buttons - Confirmed/Recovered/Deceased to see the graph individually*</h3>
+            <canvas id = "myChart"></canvas>
+        </div>
+        <footer class = "last">
+            <br>
+            <br>
+            <h2 class = "name">Created By Krishanu .</h4>
+            <br>
+            <br>
+
+        </footer>
+    </body>
+
+</html>

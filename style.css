@@ -1,0 +1,48 @@
+
+.Catchy{
+    color:#3282b8;
+}
+.heading{
+    
+    background-color:#3282b8;
+    
+}
+h1{
+    font-family: 'Dancing Script';
+    text-align: center;
+    padding : 10px;
+    color: white;
+    
+} 
+h2{
+    font-family: 'Dancing Script';
+}
+h3{
+    font-family: 'Dancing Script';
+    text-align: center;
+    padding : 10px;
+    color : white;
+}
+h5{
+    font-family: 'Dancing Script';
+    text-align: center;
+    padding : 10px;
+}
+.info{
+    font-family: 'Dancing Script';
+    text-align: center;
+    color:#40bad5;
+}
+.information{
+    background-color: #ddf3f5;
+}
+.last{
+    background-color: #ddf3f5;
+    text-align: center;
+    
+
+}
+.name{
+    color : #3282b8;
+    font-family: 'Dancing Script';
+}
